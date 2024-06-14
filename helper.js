@@ -1,0 +1,1 @@
+export let str = 'ID,Name,Occupation,Age\n42,Bruces,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctors Assistant,26'
