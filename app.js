@@ -1,4 +1,5 @@
-import {str as csv} from "./helper.js"
+import {csv, expandFunc} from "./helper.js"
+// import {expandFunc} from "./helper.js";
 
 function splitCSV (str) {
     let people = str.split('\n');
@@ -12,23 +13,7 @@ function splitCSV (str) {
 
 }
 
-
-
- 
-
-function expandFunc(str){
-    let tempArr = str.split('\n')
-    let new_arr = [] 
-for (let i = 0; i <= tempArr.length -1; i++){
-    const subArr = tempArr[i].split(',')
-    new_arr.push(subArr)
-}
-return new_arr
-
-}
 const arr = expandFunc(csv)
-
-
 
 function Transform (arr){
 
